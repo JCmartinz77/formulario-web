@@ -1,0 +1,49 @@
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/fondo4.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-repeat: no-repeat; /* Evita que se repita la imagen */
+    background-attachment: fixed;
+  }
+
+.container {
+    display:flow-root;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .from-control {
+    width: 500px;
+  }
+
+  label {
+    color:seashell;
+    font-size: 25px;
+  }
+
+  h1 {
+    
+    text-align: center;
+    color: whitesmoke;
+    -webkit-text-stroke: 2px black; /* Para navegadores basados en WebKit */
+    -webkit-text-stroke: 2px black; /* Para navegadores que soportan la propiedad */
+    
+  }
+
+  p {
+    text-align: center;
+    color:seashell;
+    font-size: 25px;
+
+  }
+
+  footer{
+    text-align: center;
+    color:seashell;
+    font-size: 15px;
+  }
